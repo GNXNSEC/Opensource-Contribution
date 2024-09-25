@@ -12,6 +12,6 @@ Welcome, future coding legends! ✨ This is your *gateway* to the magical world 
 
 ## That’s it, folks! 🏁
 
-*Now go forth, and conquer open-source with your awesomeness! 🌈✨*
+*Now go forth, and conquer open-source with your awesomeness! ✨*
 
 Have fun, and remember... *commit* to greatness! 😄
