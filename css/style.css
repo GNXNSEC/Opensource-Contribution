@@ -1,0 +1,123 @@
+body{
+  background-image: url("../images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#F1F1F1;
+}
+img{
+  width:85%;
+  height: auto;
+  padding:4% 0 0 7%;
+  position:relative;
+}
+i{
+  padding-right:20px;
+  font-size: 2vw;
+  color:#fff;
+}
+
+/* Heading Section */
+
+.heading{
+  color:#fff;
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+  font-size: 2.7vw;
+  padding: 3% 0 0 4%;
+  text-decoration: none;
+}
+.heading:hover{
+  color:hsl(300, 69%, 71%);
+}
+
+/* Text */
+
+.description{
+  font-family:'Open Sans', sans-serif;
+  padding:6% 8% 0 0;
+}
+.body-title{
+  font-size: 2.3vw;
+  font-weight: 900;
+  padding-right: 7%;
+}
+.body-text{
+  color:#D3D3D3;
+  font-size: 1.3vw;
+}
+
+/* Register Button */
+
+.btn{
+  padding:1% 10%;
+  color:hsl(257, 40%, 49%);
+  border-radius: 20px;
+}
+.btn:hover{
+  color:#fff;
+  background-color:hsl(300, 69%, 71%);
+}
+
+/* Social Icons */
+
+.icon{
+  padding:16% 0 0 63%;
+}
+.fa-facebook:hover{
+  color:#0070ff;
+}
+.fa-instagram:hover{
+  color:#cd486b;
+}
+.fa-twitter:hover{
+  color: #00acee;
+}
+/* Footer */
+
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.attribution a {
+   color: #00005C;
+   text-decoration: none;
+}
+.attribution a:hover{
+  color:#009EFF;
+}
+
+/* Media Query */
+
+@media (max-width:995px){
+  body{
+    text-align: center;
+  }
+  img{
+    padding:6% 5%;
+    width:80%;
+  }
+  i{
+    font-size: 1.5rem;
+  }
+  .heading{
+    text-align: left;
+    margin: 3% 0 0 12%;
+    font-size: 1.8rem;
+  }
+  .description{
+    padding:6% 15% 5%;
+  }
+  .body-title{
+    font-size: 1.5rem;
+  }
+  .body-text{
+    font-size: 1rem;
+  }
+  .icon{
+    padding:15% 0 0;
+  }
+  .attribution{
+    margin-top: 0;
+  }
+}
